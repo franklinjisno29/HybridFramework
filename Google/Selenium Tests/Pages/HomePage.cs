@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Google.Selenium_Tests.Pages
 {
-    internal class HomePage : BasePage
+    internal class HomePage : BasePage 
     {
         [CacheLookup]
         private IWebElement? SearchBox => Driver?.FindElement(By.Name("q"));
